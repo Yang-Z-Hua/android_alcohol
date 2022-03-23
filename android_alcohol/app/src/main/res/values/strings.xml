@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">酒机</string>
+    <string name="title_home">待出单</string>
+    <string name="title_dashboard">已完成</string>
+    <string name="title_notifications">待出酒</string>
+    <string name="prompt_email">请输入手机号</string>
+    <string name="prompt_password">请输入密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="welcome">"欢迎登录 !"</string>
+    <string name="invalid_username">请输入手机号码</string>
+    <string name="invalid_password">请输入密码</string>
+    <string name="login_failed">"登录失败"</string>
+    <string name="title_finished">已完成</string>
+    <string name="alcohol_active">出酒</string>
+    <string name="place_order">下单</string>
+    <string name="complete_order">完成</string>
+    <string name="refresh_success">刷新成功！</string>
+    <string name="inventory_desc">库存信息仅供参考，请以酒机实际库存为准</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alcohol">#202020</color>
+    <color name="no_suggest">#FF666666</color>
+    <color name="page_background">#FFf5f5f5</color>
+    <color name="btn_unclick">#FFf5f5f5</color>
+    <color name="radio_unclick">#FFf0f0f0</color>
+    <color name="light">#FFF63F22</color>
+    <color name="light_bg">#FFFEE7E4</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+</resources>

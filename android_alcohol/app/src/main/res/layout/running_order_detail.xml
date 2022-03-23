@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="35px"
+    android:background="@drawable/linearlayout_style"
+    android:orientation="vertical"
+    android:padding="40px">
+    <!--    第一行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dynamic_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动销员名称"
+            android:textColor="#333333"
+            android:textSize="33px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/order_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="33px"
+            android:textColor="#909090" />
+    </LinearLayout>
+    <!--    第二行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32px"
+        android:layout_marginBottom="32px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/brand_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textSize="43px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/sales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light"
+            android:textSize="49px"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40px"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10px"
+            android:adjustViewBounds="true"
+            android:src="@drawable/phone" />
+
+        <TextView
+            android:id="@+id/user_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="186 5135 6952"
+            android:textColor="#1C1D1F"
+            android:textSize="35px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="45px"
+        android:background="#cccccc" />
+    <!--    推荐酒机行-->
+    <LinearLayout
+        android:id="@+id/select_alcohol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:layout_marginBottom="30px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="酒机："
+            android:textColor="#909090"
+            android:textSize="33px" />
+
+        <TextView
+            android:id="@+id/alcohol_choosed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择酒机"
+            android:textColor="#202020"
+            android:textSize="33px" />
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <!--        酒机库存-->
+        <TextView
+            android:id="@+id/alcohol_inventory_desx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#909090"
+            android:textSize="33px" />
+
+        <TextView
+            android:id="@+id/alcohol_inventory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textColor="#202020"
+            android:textSize="33px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#cccccc" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="29px"
+        android:layout_marginTop="30px"
+        android:layout_marginBottom="45px"
+        android:text="@string/inventory_desc"/>
+    <!--    出酒按钮-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="115px"
+        android:gravity="center|center_vertical"
+        android:background="@color/btn_unclick"
+        android:textSize="50px"
+        android:textColor="@color/alcohol"
+        android:text="@string/title_notifications"/>
+
+</LinearLayout>
